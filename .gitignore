@@ -1,0 +1,81 @@
+# -------------------------------------------------------------------------
+# Repository Root / Workspace Tooling
+# -------------------------------------------------------------------------
+# Melos / Dart Tooling generated folders
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# Avoid committing local configurations or temporary logs
+*.log
+*.log.*
+modules.yaml
+
+# -------------------------------------------------------------------------
+# Flutter / Dart Packages & Apps (Nested Targets)
+# -------------------------------------------------------------------------
+# Ignore build artifacts across all sub-packages
+**/build/
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/generated_plugin_registrant.dart
+
+# Web specific generation
+**/doc/api/
+**/.plugin_symlinks/
+
+# -------------------------------------------------------------------------
+# IDEs and Text Editors
+# -------------------------------------------------------------------------
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# -------------------------------------------------------------------------
+# Operating Systems
+# -------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+
+# -------------------------------------------------------------------------
+# Mobile Platform Specific Artifacts
+# -------------------------------------------------------------------------
+# Android local configuration (contains local SDK paths)
+**/android/local.properties
+**/android/key.properties
+**/*.keystore
+**/*.jks
+
+# iOS/macOS local pods and workspace user state
+**/ios/.generated/
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+**/xcuserdata/

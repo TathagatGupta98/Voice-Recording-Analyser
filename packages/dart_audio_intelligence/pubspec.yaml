@@ -1,0 +1,16 @@
+name: dart_audio_intelligence
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.12.2
+
+# Add regular dependencies here.
+dependencies:
+  assemblyai_flutter_sdk: ^0.0.10
+  # path: ^1.9.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
