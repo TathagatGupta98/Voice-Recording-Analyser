@@ -79,3 +79,5 @@ Desktop.ini
 **/ios/Flutter/flutter_export_environment.sh
 **/xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
 **/xcuserdata/
+
+apps/voice_analyzer_app/config.json
