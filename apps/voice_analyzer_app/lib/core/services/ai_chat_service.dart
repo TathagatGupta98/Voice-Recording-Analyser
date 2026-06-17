@@ -6,11 +6,13 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 class AiChatService {
   final String _apiKey;
   final String _baseUrl =
-      'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent';
 
   AiChatService() : _apiKey = dotenv.env['GEMINI_API_KEY'] ?? '' {
     if (_apiKey.isEmpty) {
-      throw Exception('CRITICAL ERROR: GEMINI_API_KEY is missing or the .env file did not load correctly.');
+      throw Exception(
+        'CRITICAL ERROR: GEMINI_API_KEY is missing or the .env file did not load correctly.',
+      );
     }
   }
 

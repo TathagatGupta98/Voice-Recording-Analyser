@@ -45,13 +45,19 @@ class _ChatTabState extends State<ChatTab> {
                       ),
                       child: Text(
                         state.response,
-                        style: const TextStyle(fontSize: 15, height: 1.4, color: Colors.black87),
+                        style: const TextStyle(
+                          fontSize: 15,
+                          height: 1.4,
+                          color: Colors.black87,
+                        ),
                       ),
                     ),
                   );
                 }
                 return const Center(
-                  child: Text('Ask the conversational agent anything about your calls.'),
+                  child: Text(
+                    'Ask the conversational agent anything about your calls.',
+                  ),
                 );
               },
             ),
@@ -71,10 +77,12 @@ class _ChatTabState extends State<ChatTab> {
               ),
               const SizedBox(width: 8),
               IconButton(
-                icon: const Icon(Icons.send),
+                icon: const Icon(Icons.send_rounded),
                 onPressed: () {
                   if (_controller.text.trim().isNotEmpty) {
-                    context.read<ChatBloc>().add(SendQueryEvent(_controller.text.trim()));
+                    context.read<ChatBloc>().add(
+                      SendQueryEvent(_controller.text.trim()),
+                    );
                     _controller.clear();
                   }
                 },
