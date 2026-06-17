@@ -1,7 +1,8 @@
 name: dart_audio_intelligence
 description: A strongly-typed Dart intelligence layer for audio transcription and analysis via the AssemblyAI API.
 version: 0.0.1
-publish_to: none # Remove this line when you are ready to publish to pub.dev
+homepage: https://github.com/TathagatGupta98/Voice-Recording-Analyser
+repository: https://github.com/TathagatGupta98/Voice-Recording-Analyser/tree/main/packages/dart_audio_intelligence
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
